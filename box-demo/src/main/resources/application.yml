@@ -1,0 +1,10 @@
+#tempalte
+aliyun:
+  sms:
+    enable: true
+    accessKeyId: xxx
+    secretAccessKey: xxx
+    endpoint: dysmsapi.aliyuncs.com
+    regionId: cn-hangzhou
+    signName: 阿里云短信测试
+    templateCode: SMS_154950909
