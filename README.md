@@ -1,7 +1,7 @@
-# box
-### 短信验证码
-##### 1.1.0
-######提供阿里云短信验证码sdk
+# box 通用sdk
+适配简单通用的sdk案例，方便后续开发
+### 1.0 短信验证码
+##### 1.1.0提供阿里云短信验证码sdk
 1.引入sdk包
 
      <dependency>
@@ -25,5 +25,5 @@
         @Autowired
         private MessageSmsTemplate messageSmsTemplate;
         messageSmsTemplate.sendMessage("13279238822", "{\"code\":\"0727\"}");
-###### 阿里云短信验证码案例
+##### 1.2.0阿里云短信验证码案例
 参考box-demo中的smsTemplate案例
